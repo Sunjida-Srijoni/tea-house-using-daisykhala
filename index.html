@@ -3,9 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     
+
+    <script src="https://kit.fontawesome.com/4bb2dd28b8.js" crossorigin="anonymous"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+
+
+    
+    
+    
+    <title>Tea House</title>
+
+    <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-manrope">
+    <header class="container mx-auto">
+
+        <!-- hero part -->
+
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+             
+              <div>
+                <h1 class="text-7xl font-extrabold">It's good<br/>
+                     tea time at the<br/> Tea House </h1>
+                <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <button class="btn btn-primary">Explore More</button>
+              </div>
+
+              <div>
+                <img src="/images/banner.png" class="max-w-sm" />
+                <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60">
+                    <div>
+                        <i class="text-3xl text-amber-400 fa-solid fa-star"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-3xl">5.00</h3>
+                        <p>Trust Pilot Ratings</p>
+                    </div>
+                </div>
+              </div>
+
+              
+            </div>
+          </div>
+
+    </header>
+    <main class="container mx-auto">
+        <!-- featured section -->
+
+        <section class="text-center my-24">
+            <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
+            <p class="max-w-2xl mx-auto mb-10">Amet invidunt dolor et at kasd aliquyam rebum takimata vero. Ea sit consetetur sed dolor sadipscing sanctus invidunt, tempor erat. kasd aliquyam rebum takimata vero. Ea sit consetetur sed dolor sadipscing sanctus invidunt, tempor erat.</p>
+
+             <!-- cards starts here -->
+            <div class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <!-- first card -->
+
+                <div class="card p-8 from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                    <figure><img src="/images/tea-1.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-2xl font-bold">Milk Tea</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      
+                    </div>
+                  </div>
+
+                  <!-- second card -->
+
+                <div class="card p-8 from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                    <figure><img src="/images/tea-2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-2xl font-bold">Milk Tea</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      
+                    </div>
+                  </div>
+
+                  <!-- third card -->
+
+                <div class="card p-8 from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                    <figure><img src="/images/tea-3.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-2xl font-bold">Milk Tea</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      
+                    </div>
+                  </div>
+
+                  <!-- fourth card -->
+
+                <div class="card p-8 from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                    <figure><img src="/images/tea-4.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-2xl font-bold">Milk Tea</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      
+                    </div>
+                  </div>
+                  
+
+            </div>
+        </section>
+
+        <!-- great tea section -->
+
+        <section class="text-center my-24 flex flex-col lg:flex-row gap-12">
+
+            <div class="grid grid-col-1 md:grid-cols-2 gap-8 flex-1">
+                <div class="rounded-xl h-36 bg-gradient-to-r from-red-100 to-amber-100">
+
+                </div>
+                <div class="row-span-2 bg-[#E6A6231A] rounded-lg flex justify-center items-center py-8">
+                    <img src="images/fresh-1.png" alt="">
+                    
+                </div>
+                <div class="row-span-2 bg-[#5776391A] rounded-lg flex justify-center items-center py-8">
+                    <img src="images/fresh-2.png" alt="">
+                </div>
+
+                <div class="rounded-xl h-36 bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF]">
+                    
+                </div>
+
+            </div>
+            <div class="flex-1">
+                <h1 class="text-5xl font-extrabold">
+                    Great Tea, Freshly<br> Presented
+
+                </h1>
+                <p class="mt-4">
+                    Dolores ipsum gubergren rebum ipsum eirmod sed labore takimata clita. Elitr amet rebum elitr tempor stet dolor, diam sea accusam aliquyam consetetur dolor et aliquyam lorem dolore. Tempor justo no.
+                </p>
+                <h4 class="text-xl font-extrabold mt-8">
+                    Unique Taste
+
+                </h4>
+                <p>At amet et takimata sea lorem diam est et eirmod.</p>
+                <h4 class="text-xl font-extrabold mt-8">
+                    Premium Quality
+
+                </h4>
+                <p>At amet et takimata sea lorem diam est et eirmod.</p>
+            </div>
+
+        </section>
+        
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
